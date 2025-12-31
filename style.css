@@ -155,8 +155,8 @@ body {
 }
 .sidebar-link {
   text-decoration: none; 
-  color: #666;           
-  transition: color 0.2s, text-decoration 0.2s;
+  color: inherit;           
+  transition: all 0.2s ease;
 }
 
 

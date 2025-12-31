@@ -111,6 +111,13 @@ body {
   color: #000; 
 }
 
+.body-link {
+  text-decoration: underline; 
+  color: #2980b9 ; 
+  transition: all 0.2s ease;
+}
+
+
 /* Content Area */
 .content {
   flex: 1;

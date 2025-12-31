@@ -1,5 +1,6 @@
-/* global */
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -10,46 +11,36 @@ body {
   background: #ffffff;
 }
 
-/* navigation */
-.navbar {
-  width: 100%;
-  padding: 16px 24px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
+/* ===== Navigation ===== */
 .navbar {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  padding: 16px 40px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
-/* name */
 .site-name {
   font-size: 18px;
-  margin-right: 12px;
   font-weight: 600;
+  margin-right: 24px;
 }
 
-/* guide */
 .nav-links {
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+  gap: 16px;
 }
 
-/* link */
 .nav-links a {
   text-decoration: none;
   color: #444;
   font-weight: 500;
-  white-space: normal;
 }
 
 .nav-links a:hover {
   text-decoration: underline;
 }
 
-/* main layout */
+/* ===== Layout ===== */
 .main {
   display: flex;
   max-width: 1400px;
@@ -58,7 +49,7 @@ body {
   gap: 40px;
 }
 
-/* sidebar */
+/* Left sidebar */
 .sidebar {
   width: 260px;
   flex-shrink: 0;
@@ -70,11 +61,11 @@ body {
 
 .sidebar p {
   margin: 8px 0;
-  color: #444;
   font-size: 14px;
+  color: #444;
 }
 
-/* content */
+/* Right content */
 .content {
   flex: 1;
   min-width: 0;

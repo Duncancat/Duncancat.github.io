@@ -10,23 +10,33 @@ body {
 }
 
 /* navigation */
-.navbar {
-  width: 100%;
+navbar {
+  display: flex;
+  align-items: center;
   padding: 16px 40px;
   border-bottom: 1px solid #e5e5e5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.navbar a {
-  margin-right: 24px;
+/* name */
+.site-name {
+  font-size: 18px;
+  margin-right: 32px; 
+}
+
+/* guide */
+.nav-links {
+  display: flex;
+  gap: 16px; /* ← distance*/
+}
+
+/* link */
+.nav-links a {
   text-decoration: none;
-  color: #111;
+  color: #444;
   font-weight: 500;
 }
 
-.navbar a:hover {
+.nav-links a:hover {
   text-decoration: underline;
 }
 

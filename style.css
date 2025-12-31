@@ -132,6 +132,24 @@ body {
   margin-bottom: 5px;
 }
 
+.profile-pic {
+  width: 180px;      /* 照片显示宽度 */
+  height: 180px;     /* 照片显示高度 */
+  margin-bottom: 25px;
+  overflow: hidden;  /* 隐藏超出圆圈的部分 */
+  border-radius: 50%; /* 强制裁剪为圆形 */
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic img {
+  width: 100%;       /* 自动适配容器宽度 */
+  height: 100%;
+  object-fit: cover; /* 关键：防止图片被拉伸变形 */
+}
+
 .pub-title:hover {
   text-decoration: underline;
 }

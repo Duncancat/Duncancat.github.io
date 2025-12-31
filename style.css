@@ -116,6 +116,10 @@ body {
   color: #2980b9 ; 
 }
 
+.publish-link {
+  text-decoration: none;
+  color: #2980b9 ;
+}
 
 /* Content Area */
 .content {
